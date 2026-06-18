@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext", //"nodenext" instrui o TypeScript a seguir exatamente as regras do Node.js. Não inventar. Não assumir. Replicar o comportamento que o runtime vai ter.
+		"moduleResolution": "nodenext",
+		"noEmit": true,
+		"strict": true,
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true,
+		"allowArbitraryExtensions": true,
+		"rewriteRelativeImportExtensions": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"rootDir": "src",
+	"outDir": "dist",
+	"include": ["src"]
+}
